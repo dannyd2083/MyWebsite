@@ -1,0 +1,263 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+   margin:0;
+   width:100%;
+   height:100%;
+   background-color:black;
+   }
+html{
+   width:100%;
+   height:100%;
+   }
+
+/*menu*/
+#menu{
+
+   width:100%;
+    margin:0;
+    background-color:#222;
+	height:45px;
+	position: fixed;
+	z-index:1;
+
+
+}
+
+#menu ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+  text-align:center;
+
+}
+
+
+#menu li{float:left;
+
+         height:45px;
+		 text-align:center;
+		 border-right:1px solid #b3ffeb;
+
+
+		}
+
+#menu a{
+      display:block;
+      color:white;
+
+      padding:14px 16px;
+      text-decoration:none;
+	  height:45px;
+
+      	}
+
+
+#menu a:hover{
+
+    background: black;
+    color:white;
+	transition-duration: 2s;
+}
+
+/*welcome page*/
+#interface{
+    width:100%;
+    padding-top:64px;
+	padding-bottom:64px;
+    background-color:black;
+    padding: 0px;
+
+
+
+}
+
+#picture{
+    display: block;
+	margin-left:auto;
+	margin-right:auto;
+	filter:blur(1px)
+
+
+    }
+
+#interfacetext{
+   color:white;
+   position:absolute;
+	 left:20px;
+	 top:20px;
+	 padding:12px 35px;
+	 opacity:0.8;
+	 font-size:60px;
+	  }
+#interfacetext2{
+   color:white;
+   position:absolute;
+	 left:20px;
+	 top:80px;
+	 padding:10px 30px;
+	 opacity:0.8;
+	 font-size:75px;
+	  }
+#interfacetext3{
+   color:white;
+   position:absolute;
+	 right:0;
+	 bottom:0px;
+	 padding:200px 6px;
+	 opacity:0.8;
+	 font-size:60px;
+	  }
+
+
+
+/*About me*/
+#Aboutme{
+  width:100%;
+  padding-top:230px;
+	padding-bottom:64px;
+	background-color:black;
+	display:flex;
+}
+#aboutmepic{
+	image-orientation:from-image;
+	padding:24px 25px;
+	border-radius:100px;
+}
+
+#paragraph{
+  color:white;
+  width:50%;
+  padding:150px 25px;
+  text-align:justify;
+		   }
+
+
+/*C++*/
+#Projects{
+
+    padding-top:64px;
+	padding-bottom:70px;
+    background-color:  black;
+	display:flex;
+	}
+#pparagraph{
+           color:white;
+           width:50%;
+		   padding:60px 100px;
+			  }
+#CPPpic{
+	padding-left:24px;
+	padding-right:25px;
+	padding-bottom:50px;
+		}
+
+
+
+.CPPA a{
+     display:block;
+     color:#b3cccc;
+     text-decoration:none;
+	 transition-duration: 1s;
+	 opacity:0.75;
+
+}
+.CPPA a:hover{
+
+    transform: rotateZ(-3deg);
+    background:black;
+    color:white;
+	opacity:1;
+
+}
+
+/*HTML*/
+#HTML{
+  padding-top:100px;
+	padding-bottom:64px;
+	background-color:black;
+	display:flex;
+}
+#HTMLpic{
+   padding-left:24px;
+   padding-right:25px;
+   border-style:solid;
+   border-width:1px;
+   border-color:white;
+		}
+#HTMLparagraph{
+   color:white;
+   padding:100px 100px;
+   text-align:justify;
+}
+#HTMLA a{
+	 display:block;
+     color: #00cc99;
+     text-decoration:none;
+	 transition-duration: 1s;
+
+}
+#HTMLA a:hover{
+    background:black;
+	color:white;
+	transform:scale(1.3);
+}
+
+/*CSS*/
+#CSS{
+  padding-top:100px;
+  padding-bottom:64px;
+  background-color:black;
+  display:flex;
+}
+#CSSparagraph{
+   color:white;
+   padding:50px 100px;
+   text-align:justify;
+}
+#CSSA a{
+	 display:block;
+     color: #00cc99;
+     text-decoration:none;
+	 transition-duration: 1s;
+
+}
+#CSSA a:hover{
+    background:black;
+	color:white;
+	transform:scale(0.5);
+}
+#CSSpic{
+
+	padding-left:24px;
+	padding-right:25px;
+	padding-bottom:50px;
+
+}
+
+/*Contactme*/
+#contactme {
+  padding-top:10px;
+  padding-bottom:64px;
+  background-color:black;
+  display:flex;
+  }
+
+  #CMparagraph{
+   color:white;
+   padding:150px 150px;
+   text-align:justify;
+}
+
+#Map img{
+    padding-left:24px;
+	padding-right:25px;
+	opacity:0.5;
+	}
+#Map img:hover {
+    opacity:1;
+	transition-duration: 2s;
+	}
